@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+}
+
+
+                   /* Navbar Section */
+
+
+
+.navbar {
+  width: 100%;
+  height: 71px;
+  padding: 60px 90px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-family: cursive;
+  font-weight: bold;
+  color: #E95A08;
+}
+
+.logo img {
+  height: 80px;
+  width: auto;
+  display: block;
+  border-radius: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-links li.home a,
+.nav-links li.cart span {
+  color: #000; 
+}
+
+.nav-links li.shop a,
+.nav-links li.about a {
+  color: #8987A1; 
+}
+
+.nav-links li a:hover {
+  opacity: 0.8;
+  color: #E95A08;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.cart i {
+  font-size: 18px;
+  color: #000;
+}
